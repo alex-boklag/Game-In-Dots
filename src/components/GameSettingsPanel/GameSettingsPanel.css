@@ -1,0 +1,68 @@
+.game-setting-panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.game-setting-panel select {
+  background-color: rgb(207, 216, 220);
+  color: rgb(134, 151, 157);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  appearance: none;
+  outline: none;
+  font-size: small;
+  cursor: pointer;
+}
+
+.game-setting-panel input {
+  background-color: rgb(243, 243, 243);
+  color: rgb(134, 151, 157);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 0 10px;
+  outline: none;
+  flex-grow: 1;
+  font-size: small;
+}
+
+.game-setting-panel input::placeholder {
+  color: rgb(134, 151, 157);  
+}
+
+.game-setting-panel button {
+  background-color: rgb(123, 141, 147);
+  color: rgb(250, 250, 250);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  flex-grow: 2;
+  font-size: small;
+  cursor: pointer;
+}
+
+.game-setting-panel button:hover {
+  background-color: rgb(137, 159, 165);
+}
+
+.game-setting-panel button:disabled {
+  background-color: #dfdfdf;
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 768px) {
+  .game-setting-panel {
+    width: 90vw;
+  }
+  .game-setting-panel select {
+    width: 35%;
+  }
+  .game-setting-panel input {
+    width: 35%;
+  }
+  .game-setting-panel button {
+    width: 20%;
+  }
+}

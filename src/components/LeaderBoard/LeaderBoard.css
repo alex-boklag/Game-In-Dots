@@ -1,0 +1,38 @@
+.leader-board {
+  margin-left: 50px;
+  width: 30vw;
+}
+
+.leader-board h2 {
+  margin-top: 0;
+  color: rgb(136, 136, 136);
+}
+
+.leader-board ul {
+  list-style-type: none;
+  padding-left: 0;
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.leader-board li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 20px;
+  background-color: rgb(207, 216, 220);
+  color: rgb(159, 168, 171);
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.leader-board li span:first-child {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .leader-board {
+    width: 90vw;
+    margin-left: 0;
+  }
+}
