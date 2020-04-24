@@ -1,2 +1,3 @@
-# game-in-dots
-Browser game "Game In Dots"
+## Game In Dots
+
+This is a browser game.
